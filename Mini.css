@@ -1,0 +1,83 @@
+*{
+    background-color: darkgoldenrod;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: double;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    color: red;
+    background-image: url('https://i.pinimg.com/originals/1b/e1/b8/1be1b8df06dd6c392696589402cf26af.jpg');
+    background-size: 100%;
+    height: 250px;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: -22px;
+    padding:0px;
+    overflow: hidden;
+    background-color: bisque; 
+
+}
+
+li{
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover :not(active){
+    background-color: #111;
+
+}
+.active{
+    background-color:brown;
+}
+section{
+    border: 5px dotted black;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    margin-top: 120px;
+    font-size: 20px;
+    font-family: myfont;
+    text-align: left;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: burlywood;
+    
+}
+#bord{
+    background-color: burlywood;
+    border: 1px solid blue;
+    width:250px;
+    height: 500px;
+    margin-right:0px;
+    margin-left: 950px;
+    margin-top:-400px;
+    display:block;
+    padding:15px;
+}
+#image1{
+    float: right;
+    border: 5px solid black;  
+    margin-top: 50px;
+}
+
+#image2{
+    display: block;
+    border: 5px solid black;
+    float: right;
+    margin-top: 100px;
+}
